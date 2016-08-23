@@ -12,8 +12,16 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/jquery-scrollto/vendor/jquery.js"></script>
-    <script src="js/jquery-scrollto/vendor/animation.js"></script>
+    <script src="js/jquery-scrollto/lib/jquery-scrollto.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        $('#sobre').ScrollTo({
+          duration: 2000,
+          easing: 'linear'
+        });
 
+      });
+    </script>
   </head>
   <body>
       <nav>
@@ -106,5 +114,9 @@
           Desenvolvido por Guilherme Rodrigues
         </p>
       </footer>
+
+
+
   </body>
+
 </html>

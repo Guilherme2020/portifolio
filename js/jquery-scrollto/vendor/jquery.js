@@ -9522,10 +9522,7 @@ jQuery.each( {scrollLeft: "pageXOffset", scrollTop: "pageYOffset"}, function( me
 		}, method, val, arguments.length, null );
 	};
 });
-$('#sobre').ScrollTo({
-    duration: 2000,
-    easing: 'linear'
-});
+
 
 function getWindow( elem ) {
 	return jQuery.isWindow( elem ) ?
